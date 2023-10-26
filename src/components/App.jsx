@@ -13,14 +13,14 @@ import { LoginPage } from "pages/LoginPage";
 
 export const App = () => {
   const dispatch = useDispatch();
-  const { isRefreshing } = useAuth();
+  const { isRefresh } = useAuth();
 
   useEffect(() => {
     dispatch(refreshUser());
   }, [dispatch]);
 
   return (
-    isRefreshing ? (
+    isRefresh ? (
       <b>Refreshing user...</b>
     ) : (
         <Routes>

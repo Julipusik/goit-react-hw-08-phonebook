@@ -13,6 +13,19 @@ export const ContactItem = styled.div`
     }
 
 `
+// export const EditBtn = styled.button`
+//     font-size: 16px;
+//     padding: 4px 6px;
+//     border-radius: 12px;
+//     border: 1px solid #EAC645;
+//     background: white;
+//     color: #222;
+
+//     &:hover {
+//         background: #EAC645;
+//         color: white;
+//     }
+// `;
 
 export const DeleteBtn = styled.button`
     font-size: 16px;
