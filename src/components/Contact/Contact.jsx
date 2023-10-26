@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { removeContact } from "redux/contacts/operations";
-import { ContactItem, EditBtn, DeleteBtn } from "./Contact.styled"
+import { ContactItem, DeleteBtn } from "./Contact.styled"
 // import { openModal } from "redux/modalSlice";
 
 export const Contact = ({ contact }) => {
